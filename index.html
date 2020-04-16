@@ -39,33 +39,36 @@
         </span>
       </div>
     </header>
-
     <!-- main 태그: 브라우저에 디자인의 메인 부분이라는 것을 알림 -->
     <main class="chats">
       <ul class="chats__list">
         <li class="chats__chat chat">
           <a href="chat.html">
-            <div class="chat__column">
-              <!-- g-avatar 클래스 명은 글로벌 스타일을 적용하기 위함 -->
-              <img class="chat__avatar g-avatar" src="images/avatar.jpg" />
-              <div class="chat__content">
-                <span class="chat__username">
-                  Lynn
-                </span>
-                <span class="chat__preview">
-                  Going Home!
-                </span>
+            <div class="chats__chat friend friend--lg">
+              <div class="friend__column">
+                <img src="images/avatar.jpg" class="m-avatar friend__avatar" />
+                <div class="friend__content">
+                  <span class="friend__name">
+                    Lynn
+                  </span>
+                  <span class="friend__bottom-text">
+                    Going Home!
+                  </span>
+                </div>
+              </div>
+              <div class="friend__column">
+                  <span class="chat__timestamp">
+                    March 8
+                  </span>
+                </div>
               </div>
             </div>
           </a>
-          <div class="chat__column">
-            <span class="chat__timestamp">Yesterday</span>
-          </div>
         </li>
       </ul>
     </main>
     <nav class="nav">
-      <ul class="nav_list">
+      <ul class="nav__list">
         <li class="nav__list-item">
           <a href="friends.html" class="nav__list-link">
             <i class="far fa-user"></i>
@@ -73,6 +76,7 @@
         </li>
         <li class="nav__list-item">
           <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8</div>
             <i class="fas fa-comment"></i>
           </a>
         </li>
