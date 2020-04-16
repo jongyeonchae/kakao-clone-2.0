@@ -5,6 +5,7 @@
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
+@import "friend.css";
 
 /* *(selector): 모든 element 를 지칭 */
 * {
@@ -26,6 +27,8 @@ body {
 }
 
 a {
-  /* inherit: 아버지로부터 색을 가져오는 속성  */
+  /* inherit: 아버지로부터 색을 가져오는 속성 */
   color: inherit;
+  /* text-decoration: 텍스트 아래 링크 밑줄 삭제 */
+  text-decoration: none;
 }
