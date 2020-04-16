@@ -6,6 +6,12 @@
 @import "header.css";
 @import "nav-bar.css";
 
+/* *(selector): 모든 element 를 지칭 */
+* {
+  /* border-box 속성: element의 크기를 측정할 때 border의 두께까지도 고려함 */
+  box-sizing: border-box;
+}
+
 body {
   background-color: white;
   padding: 10px 20px;
