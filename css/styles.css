@@ -1,11 +1,16 @@
 /* google fonts import */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans:400,600&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,600&display=swap");
 /* 모든 기본값을 맞추기 위해 reset.css 를 import */
 @import "reset.css";
 @import "status-bar.css";
 @import "header.css";
 @import "nav-bar.css";
 @import "friend.css";
+@import "friends.css";
+@import "find.css";
+@import "more.css";
+@import "settings.css";
+@import "chat.css";
 
 /* *(selector): 모든 element 를 지칭 */
 * {
